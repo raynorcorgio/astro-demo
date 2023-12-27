@@ -1,0 +1,8 @@
+---
+import type { CollectionEntry } from "astro:content";
+type Props = {
+  posts: CollectionEntry<"posts">[];
+};
+
+const { posts } = Astro.props;
+---
